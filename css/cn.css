@@ -315,6 +315,9 @@ ul.es-pager li.act {
 .carRight{width:44%;float:none; margin:10px auto; text-align:center;}
 }
 @media screen and (max-width: 800px) {
+body{margin-top: 50px;}
+.xlogo{position: fixed;top: 0;left: 0;width: 100%;z-index: 999998;}
+.nav-toggle{position: fixed;}
 .nav-collapse ul li .chilNav .chiNava{margin-left:6em;}	
 .hengfu{ display:none;}	
 .hengfuLeft{width:100%; text-align:center; height:auto;}
