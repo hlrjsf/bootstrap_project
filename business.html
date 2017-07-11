@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>宜居阁</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+    <link href="css/cn.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <h1 class="xlogo">
+     <a href="index.html"><img src="images/logo.png" /></a>
+    </h1>
+    <nav class="nav-collapse">
+      <ul>
+        <li class="navCur"><a href="index.html">首页</a></li>
+        <li>
+        <a href="recommend.html">推荐房源</a></li>
+        <li><a href="select.html">选房中心</a></li>
+        <li><a href="service.html">金融服务</a>
+         <div class="chilNav" id="chilNav">
+          <div class="chiNava"><a href="service.html">信贷</a></div>
+          <div class="chiNava"><a href="service.html">房险</a></div>
+         </div><!--chilNav/-->
+        </li>
+        <li><a href="business.html">买卖流程</a></li>
+        <li><a href="contact.html">联系我们</a></li>
+      </ul>
+     </nav>
+    <!--business-->
+    <div class="business">
+     <div class="maimai">
+      <img src="images/mai.jpg" />
+     </div><!--maimai/-->
+     <ul class="maiList">
+      <li><img src="images/mai-1.jpg" /></li>
+      <li class="maiRight"><img src="images/mai-2.jpg" /></li>
+      <li><img src="images/mai-4.jpg" /></li>
+      <li class="maiRight"><img src="images/mai-3.jpg" /></li>
+      <div class="clearfix"></div>
+     </ul><!--maiList/-->
+     <div class="maimai">
+      <img src="images/mais.jpg" />
+     </div><!--maimai/-->
+     <ul class="maiList">
+      <li><img src="images/mai2-1.jpg" /></li>
+      <li class="maiRight"><img src="images/mai2-2.jpg" /></li>
+      <li><img src="images/mai2-4.jpg" /></li>
+      <li class="maiRight"><img src="images/mai2-3.jpg" /></li>
+      <div class="clearfix"></div>
+     </ul><!--maiList/-->
+     
+     <h2 class="zhiTitle">置换政策</h2>
+     <div class="servicePar">
+      二手房置换，是消费者用二手房的评估价值加上另行支付的房款从品牌经销商处购买新房的业务。由于参加置换的房地产商拥有良好的信誉和优质的服务，其品牌经销商也能够给参与置换业务的消费者带来信任感和更加透明、安全、便利的服务，所以现在越来越多想换新房的消费者希望尝试这一新兴的业务。二手房置换渐成为房地产商的第二战场，与传统二手房交易方式相比，二手房置换业务有自己的特点。
+     </div><!--servicePar/-->
+    </div><!--business/-->
+    <!--business-->
+    <div class="footer">
+     <p>
+      <a href="index.html">首页</a>
+      <a href="recommend.html">推荐房源</a>
+      <a href="select.html">选房中心</a>
+      <a href="service.html">金融服务</a>
+      <a href="business.html">买卖流程</a>
+      <a href="job.html">人才招聘</a>
+      <a href="contact.html" style="border:0;">联系我们</a>
+     </p>
+    </div><!--footer/-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/js.js"></script>
+    <!--响应式导航-->
+    <script>
+      var navigation = responsiveNav(".nav-collapse", {
+        animate: true,                    
+        transition: 284,                  
+        label: "Menu",                    
+        insert: "after",                  
+        customToggle: "",                 
+        closeOnNavClick: false,           
+        openPos: "relative",              
+        navClass: "nav-collapse",         
+        navActiveClass: "js-nav-active",  
+        jsClass: "js",                    
+        init: function(){},               
+        open: function(){},               
+        close: function(){}               
+      });
+    </script>
+  </body>
+</html>
